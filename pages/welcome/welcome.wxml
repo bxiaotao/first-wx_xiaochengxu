@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+<image src="/images/images/头像.jpg" class="user-image"></image>
+<text class="user-name">baxiaotao</text>
+<view class="tip-container" bind:tap="onTap">
+<text class="user-tip">please onlick this</text>
+</view>
+</view>

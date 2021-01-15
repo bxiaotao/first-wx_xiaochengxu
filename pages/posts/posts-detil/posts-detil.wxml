@@ -1,0 +1,17 @@
+<view class="container">
+  <image src="{{postData.image}}" class="head-image"></image>
+  <view class="author-date">
+    <image src="{{postData.imagetouxiang}}" class="avatar"></image>
+    <text class="author">{{postData.zuozhe}}</text>
+    <text class="const-date">发表与</text>
+    <text class="date">{{postData.date}}</text>
+  </view>
+  <text class="title">{{postData.title}}</text>
+  ------------------
+  <view>
+    <view class="share" bind:tap="onCollectionTap" >
+    <text >{{postData.foot1}}</text>
+  </view>
+  </view>
+  <text>{{postData.detail}}</text>
+</view>

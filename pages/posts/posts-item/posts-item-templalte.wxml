@@ -1,0 +1,18 @@
+<template name="postItem">
+  <view class="post-container">
+  <view class="post-touxiang-date">
+  <image src="{{imagetouxiang}}" class="touxiang"></image>
+  <text class="date" >{{date}}</text>
+</view>
+<view>
+<text class="title">{{title}}</text>
+<image src="{{image}}" class="post-image"></image>
+<text class="post-cotent">{{content}}</text>
+</view>
+
+<view class="foot">
+  <text class="post-foot-font">{{foot1}}</text>
+  <text class="post-foot-font">{{foot2}}</text>
+</view>
+</view>
+</template>

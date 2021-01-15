@@ -1,0 +1,66 @@
+swiper{
+  width:100%;
+  height:500rpx;
+}
+
+swiper image{
+  width:100%;
+  height:500rpx;
+}
+
+  .post-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20rpx;
+    margin-bottom: 40rpx;
+    background-color: #fff;
+    border-top: 1px solid #ededed;
+    border-bottom:1px solid #ededed;
+    padding-bottom: 10rpx;
+  }
+  .post-touxiang-date{
+    margin:10rpx 0 20rpx 10rpx;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  .touxiang{
+    width: 50rpx;
+    height:50rpx;
+    border-radius: 50%;
+  }
+.date{
+    font-size: 26rpx;
+    margin-left: 20rpx;
+    color:#666;
+  }
+  .title{
+    font-size: 34rpx;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color:#333;
+  }
+  .post-image{
+    width:100%;
+    height: 340rpx;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+.post-cotent{
+  font-size: 28rpx;
+  color: #666;
+  letter-spacing: 2rpx;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+}
+.foot{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.post-foot-font{
+  font-size: 23rpx;
+  margin-left: 20rpx;
+  color: #666;
+}
